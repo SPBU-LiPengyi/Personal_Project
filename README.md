@@ -1,6 +1,5 @@
 # Reference of Master's thesis
 
-# 早期语音识别模型（HMM）
 @article{juang1991hidden,
   title={Hidden Markov models for speech recognition},
   author={Juang, Biing Hwang and Rabiner, Laurence R},
@@ -11,7 +10,7 @@
   year={1991},
   publisher={Taylor \& Francis}
 }
-# GMM模型
+
 @inproceedings{burget2010multilingual,
   title={Multilingual acoustic modeling for speech recognition based on subspace Gaussian mixture models},
   author={Burget, Luk{\'a}{\v{s}} and Schwarz, Petr and Agarwal, Mohit and Akyazi, Pinar and Feng, Kai and Ghoshal, Arnab and Glembek, Ond{\v{r}}ej and Goel, Nagendra and Karafi{\'a}t, Martin and Povey, Daniel and others},
@@ -20,20 +19,20 @@
   year={2010},
   organization={IEEE}
 }
-# AVSR模型
+
 @article{ma2303auto,
   title={Auto-AVSR: Audio-Visual Speech Recognition with Automatic Labels. arXiv 2023},
   author={Ma, P and Haliassos, A and Fernandez-Lopez, A and Chen, H and Petridis, S and Pantic, M},
   journal={arXiv preprint arXiv:2303.14307}
 }
-# VAE
+
 @article{kingma2013auto,
   title={Auto-encoding variational bayes},
   author={Kingma, Diederik P and Welling, Max},
   journal={arXiv preprint arXiv:1312.6114},
   year={2013}
 }
-# GAN
+
 @article{goodfellow2014generative,
   title={Generative adversarial nets},
   author={Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
@@ -41,7 +40,7 @@
   volume={27},
   year={2014}
 }
-# 麦克格克效应
+
 @article{mcgurk1976hearing,
   title={Hearing lips and seeing voices},
   author={McGurk, Harry and MacDonald, John},
@@ -52,14 +51,14 @@
   year={1976},
   publisher={Nature Publishing Group UK London}
 }
-# 深度神经网络
+
 @article{canziani2016analysis,
   title={An analysis of deep neural network models for practical applications},
   author={Canziani, Alfredo and Paszke, Adam and Culurciello, Eugenio},
   journal={arXiv preprint arXiv:1605.07678},
   year={2016}
 }
-# 综述关于中LSTM
+
 @article{alom2019state,
   title={A state-of-the-art survey on deep learning theory and architectures},
   author={Alom, Md Zahangir and Taha, Tarek M and Yakopcic, Chris and Westberg, Stefan and Sidike, Paheding and Nasrin, Mst Shamima and Hasan, Mahmudul and Van Essen, Brian C and Awwal, Abdul AS and Asari, Vijayan K},
@@ -70,7 +69,7 @@
   year={2019},
   publisher={Multidisciplinary Digital Publishing Institute}
 }
-# RNN 
+
 @article{sherstinsky2020fundamentals,
   title={Fundamentals of recurrent neural network (RNN) and long short-term memory (LSTM) network},
   author={Sherstinsky, Alex},
@@ -80,7 +79,7 @@
   year={2020},
   publisher={Elsevier}
 }
-# CNN
+
 @article{li2021survey,
   title={A survey of convolutional neural networks: analysis, applications, and prospects},
   author={Li, Zewen and Liu, Fan and Yang, Wenjie and Peng, Shouheng and Zhou, Jun},
@@ -88,7 +87,7 @@
   year={2021},
   publisher={IEEE}
 }
-# AVSR
+
 @inproceedings{ma2023auto,
   title={Auto-AVSR: Audio-visual speech recognition with automatic labels},
   author={Ma, Pingchuan and Haliassos, Alexandros and Fernandez-Lopez, Adriana and Chen, Honglie and Petridis, Stavros and Pantic, Maja},
@@ -97,12 +96,14 @@
   year={2023},
   organization={IEEE}
 }
+
 @article{pan2022leveraging,
   title={Leveraging unimodal self-supervised learning for multimodal audio-visual speech recognition},
   author={Pan, Xichen and Chen, Peiyu and Gong, Yichen and Zhou, Helong and Wang, Xinbing and Lin, Zhouhan},
   journal={arXiv preprint arXiv:2203.07996},
   year={2022}
 }
+
 @inproceedings{ma2021end,
   title={End-to-end audio-visual speech recognition with conformers},
   author={Ma, Pingchuan and Petridis, Stavros and Pantic, Maja},
@@ -111,6 +112,7 @@
   year={2021},
   organization={IEEE}
 }
+
 @inproceedings{yu2020audio,
   title={Audio-visual recognition of overlapped speech for the lrs2 dataset},
   author={Yu, Jianwei and Zhang, Shi-Xiong and Wu, Jian and Ghorbani, Shahram and Wu, Bo and Kang, Shiyin and Liu, Shansong and Liu, Xunying and Meng, Helen and Yu, Dong},
@@ -119,6 +121,7 @@
   year={2020},
   organization={IEEE}
 }
+
 @inproceedings{petridis2018audio,
   title={Audio-visual speech recognition with a hybrid ctc/attention architecture},
   author={Petridis, Stavros and Stafylakis, Themos and Ma, Pingchuan and Tzimiropoulos, Georgios and Pantic, Maja},
@@ -127,6 +130,7 @@
   year={2018},
   organization={IEEE}
 }
+
 @article{afouras2018deep,
   title={Deep audio-visual speech recognition},
   author={Afouras, Triantafyllos and Chung, Joon Son and Senior, Andrew and Vinyals, Oriol and Zisserman, Andrew},
@@ -137,7 +141,7 @@
   year={2018},
   publisher={IEEE}
 }
-# CLIP
+
 @inproceedings{radford2021learning,
   title={Learning transferable visual models from natural language supervision},
   author={Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others},
@@ -146,7 +150,7 @@
   year={2021},
   organization={PMLR}
 }
-# CLIP系列工作
+
 @inproceedings{xu2022groupvit,
   title={Groupvit: Semantic segmentation emerges from text supervision},
   author={Xu, Jiarui and De Mello, Shalini and Liu, Sifei and Byeon, Wonmin and Breuel, Thomas and Kautz, Jan and Wang, Xiaolong},
@@ -154,6 +158,7 @@
   pages={18134--18144},
   year={2022}
 }
+
 @inproceedings{li2022blip,
   title={Blip: Bootstrapping language-image pre-training for unified vision-language understanding and generation},
   author={Li, Junnan and Li, Dongxu and Xiong, Caiming and Hoi, Steven},
@@ -162,11 +167,13 @@
   year={2022},
   organization={PMLR}
 }
+
 @article{patrick2020multi,
   title={Multi-modal self-supervision from generalized data transformations},
   author={Patrick, Mandela and Asano, Yuki and Kuznetsova, Polina and Fong, Ruth and Henriques, Joao F and Zweig, Geoffrey and Vedaldi, Andrea},
   year={2020}
 }
+
 @inproceedings{jia2021scaling,
   title={Scaling up visual and vision-language representation learning with noisy text supervision},
   author={Jia, Chao and Yang, Yinfei and Xia, Ye and Chen, Yi-Ting and Parekh, Zarana and Pham, Hieu and Le, Quoc and Sung, Yun-Hsuan and Li, Zhen and Duerig, Tom},
@@ -176,15 +183,13 @@
   organization={PMLR}
 }
 
-
-# ViT
 @article{dosovitskiy2010image,
   title={An image is worth 16x16 words: Transformers for image recognition at scale. arXiv 2020},
   author={Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and others},
   journal={arXiv preprint arXiv:2010.11929},
   year={2010}
 }
-# Swin ViT
+
 @inproceedings{liu2021swin,
   title={Swin transformer: Hierarchical vision transformer using shifted windows},
   author={Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and Zhang, Zheng and Lin, Stephen and Guo, Baining},
@@ -192,7 +197,7 @@
   pages={10012--10022},
   year={2021}
 }
-# ResNet
+
 @inproceedings{he2016deep,
   title={Deep residual learning for image recognition},
   author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
@@ -200,7 +205,7 @@
   pages={770--778},
   year={2016}
 }
-# Transformer
+
 @article{vaswani2017attention,
   title={Attention is all you need},
   author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
@@ -208,7 +213,7 @@
   volume={30},
   year={2017}
 }
-# MLP
+
 @article{rumelhart1986learning,
   title={Learning representations by back-propagating errors},
   author={Rumelhart, David E and Hinton, Geoffrey E and Williams, Ronald J},
@@ -219,7 +224,7 @@
   year={1986},
   publisher={Nature Publishing Group UK London}
 }
-# SVM
+
 @article{cortes1995support,
   title={Support-vector networks},
   author={Cortes, Corinna and Vapnik, Vladimir},
@@ -229,7 +234,7 @@
   year={1995},
   publisher={Springer}
 }
-# KNN
+
 @article{peterson2009k,
   title={K-nearest neighbor},
   author={Peterson, Leif E},
@@ -239,7 +244,7 @@
   pages={1883},
   year={2009}
 }
-# 决策树
+
 @article{song2015decision,
   title={Decision tree methods: applications for classification and prediction},
   author={Song, Yan-Yan and Ying, LU},
@@ -250,7 +255,7 @@
   year={2015},
   publisher={Shanghai Mental Health Center}
 }
-# DDPM
+
 @article{ho2020denoising,
   title={Denoising diffusion probabilistic models},
   author={Ho, Jonathan and Jain, Ajay and Abbeel, Pieter},
@@ -259,14 +264,14 @@
   pages={6840--6851},
   year={2020}
 }
-# DDIM
+
 @article{song2020denoising,
   title={Denoising diffusion implicit models},
   author={Song, Jiaming and Meng, Chenlin and Ermon, Stefano},
   journal={arXiv preprint arXiv:2010.02502},
   year={2020}
 }
-# DALLE 2
+
 @article{ramesh2022hierarchical,
   title={Hierarchical text-conditional image generation with clip latents},
   author={Ramesh, Aditya and Dhariwal, Prafulla and Nichol, Alex and Chu, Casey and Chen, Mark},
@@ -276,13 +281,14 @@
   pages={3},
   year={2022}
 }
-# DALLE 3
+
 @article{betker2023improving,
   title={Improving image generation with better captions},
   author={Betker, James and Goh, Gabriel and Jing, Li and Brooks, Tim and Wang, Jianfeng and Li, Linjie and Ouyang, Long and Zhuang, Juntang and Lee, Joyce and Guo, Yufei and others},
   journal={Computer Science. https://cdn. openai. com/papers/dall-e-3. pdf},
   year={2023}
 }
+
 # guidance
 @article{dhariwal2021diffusion,
   title={Diffusion models beat gans on image synthesis},
